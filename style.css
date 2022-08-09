@@ -86,3 +86,26 @@ body{
     padding-left: 35%;
     padding-top: 1%;
   }
+
+  header{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+header .menu_side, .song_side{
+    width: 25%;
+    height: 91%;
+    position: relative;
+    background-color: rgb(21, 54, 54);
+    box-shadow: 5px 0px 2px rgb(1, 63, 63);
+    color: aliceblue;
+}
+
+header .song_side{
+    width: 75%;
+    background-color: rgb(12, 32, 32);
+}
