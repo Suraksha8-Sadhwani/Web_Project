@@ -109,3 +109,55 @@ header .song_side{
     width: 75%;
     background-color: rgb(12, 32, 32);
 }
+
+header .menu_side .menu_song{
+  width: 100%;
+  min-height: 300px;
+  /* border: 1px solid aliceblue; */
+  margin-top: 40px;
+}
+
+header .menu_side .menu_song li{
+  list-style-type: none;
+  padding: 5px 0px 5px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .3s linear;
+}
+
+header .menu_side .menu_song li:hover{
+  background: rgba(167, 167, 214, 0.1);
+}
+
+header .menu_side .menu_song li span{
+  font-size: 12px;
+  font-weight: 600;
+  color: grey ;
+}
+
+header .menu_side .menu_song li img{
+  width: 32px;
+  height: 32px;
+  margin-left: 25px;
+}
+
+header .menu_side .menu_song li h5{
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+header .menu_side .menu_song li h5 .subtitle{
+  font-size: 12px;
+  color: grey;
+}
+
+header .menu_side .menu_song li .bi{
+  position: absolute;
+  right: 15px;
+  top: 6px;
+  font-size: 16px;
+}
+
